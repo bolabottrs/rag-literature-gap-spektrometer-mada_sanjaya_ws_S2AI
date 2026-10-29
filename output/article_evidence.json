@@ -1,0 +1,336 @@
+[
+  {
+    "metadata": {
+      "category": "RAG+spektroskopi",
+      "title": "SpeLL: An Agent for Natural Language-Driven Intelligent Spectral Modeling",
+      "authors": "Jiashun Fu; Xuyang Liu; Wensheng Cai; Haohao Fu; Xueguang Shao",
+      "year": "2025",
+      "venue": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.5c01236",
+      "url": "https://doi.org/10.1021/acs.jcim.5c01236",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "SpeLL uses LLM and retrieval-augmented generation for NIR spectral data modeling. It has Code RAG for specialized spectral-analysis code and Data RAG for historical spectral datasets, with natural-language interaction, code generation/execution, and Auto-Debug. Core RAG/spectroscopy source. The project uses NIR, so distinguish its modality and task from SPEKTRA visible measurements."
+      }
+    ],
+    "extraction": {
+      "research_question": "Tidak dilaporkan pada teks yang diberikan",
+      "domain_modality": "Near‑infrared (NIR) spectral data modeling – the paper explicitly states it works with NIR and distinguishes this from SPEKTRA visible measurements. [abstract/notes, CHUNK 0]",
+      "method": "Combines a large language model (LLM) with retrieval‑augmented generation (RAG) to enable natural‑language‑driven spectral modeling, including code generation/execution and Auto‑Debug. [abstract/notes, CHUNK 0]",
+      "rag_components": "Two RAG modules: • **Code RAG** for specialized spectral‑analysis code. • **Data RAG** for historical spectral datasets. Both are used together with the LLM. [abstract/notes, CHUNK 0]",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "The article notes that its modality (NIR) and task differ from SPEKTRA’s visible‑light measurements, indicating a relevance to the broader SPEKTRA domain but in a distinct spectral range. [abstract/notes, CHUNK 0]",
+      "gap_evidence": {
+        "explicit": "The excerpt only mentions the system’s architecture (LLM + Code RAG + Data RAG) and that it operates on NIR data, without providing experimental results, benchmarks, or user studies. [abstract/notes, CHUNK 0]",
+        "inferred": "Because no evaluation metrics, comparative analyses, or discussion of limitations are presented, there is a gap in empirical evidence of SpeLL’s performance and its applicability relative to existing SPEKTRA approaches."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "RAG+spektroskopi",
+      "title": "LUMIR: an LLM-driven unified agent framework for multi-task infrared spectroscopy reasoning",
+      "authors": "Zujie Xie; Zixuan Chen; Jiheng Liang; Xiangyang Yu; Ziru Yu",
+      "year": "2026",
+      "venue": "Analytica Chimica Acta",
+      "doi": "10.1016/j.aca.2025.344857",
+      "url": "https://doi.org/10.1016/j.aca.2025.344857",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "An LLM-driven agent for infrared spectral reasoning integrates a structured literature knowledge base, literature-based retrieval of preprocessing/feature methods, automated preprocessing and feature extraction, and classification, regression, and anomaly tasks. Abstract reports evaluation on multiple datasets. Core adjacent spectroscopy agent. Check full text for retrieval details and exact metrics; IR is not visible."
+      }
+    ],
+    "extraction": {
+      "research_question": "Tidak dilaporkan pada teks yang diberikan",
+      "domain_modality": "Infrared spectroscopy (IR)",
+      "method": "LLM‑driven unified agent that combines a structured literature knowledge base, literature‑based retrieval of preprocessing/feature methods, automated preprocessing and feature extraction, and downstream tasks such as classification, regression, and anomaly detection (\"An LLM-driven agent for infrared spectral reasoning integrates a structured literature knowledge base, literature-based retrieval of preprocessing/feature methods, automated preprocessing and feature extraction, and classification, regression, and anomaly tasks\" – abstract/notes).",
+      "rag_components": "Structured literature knowledge base; literature‑based retrieval of preprocessing/feature methods (as part of the RAG pipeline) (\"integrates a structured literature knowledge base, literature‑based retrieval of preprocessing/feature methods\" – abstract/notes).",
+      "evaluation": "Evaluated on multiple infrared spectroscopy datasets, but specific metrics or results are not provided in the excerpt (\"Abstract reports evaluation on multiple datasets\" – abstract/notes).",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Tidak dilaporkan pada teks yang diberikan",
+      "gap_evidence": {
+        "explicit": "The abstract notes that detailed retrieval methods and exact performance metrics are not provided and that infrared (IR) details are not visible (\"Check full text for retrieval details and exact metrics; IR is not visible\" – abstract/notes).",
+        "inferred": "Further work is needed to disclose the specific retrieval algorithms, preprocessing pipelines, and quantitative results to assess applicability for Spektra‑type platforms and to compare against existing IR analysis baselines."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "RAG+spektroskopi",
+      "title": "Enhancing Spectral Knowledge Interrogation: A Reliable Retrieval-Augmented Generative Framework on Large Language Models",
+      "authors": "Zujie Xie; Jiheng Liang; Xiangyang Yu; Ziru Yu",
+      "year": "2025",
+      "venue": "SSRN",
+      "doi": "10.2139/ssrn.5391577",
+      "url": "https://doi.org/10.2139/ssrn.5391577",
+      "publication_status": "Preprint; peer-review status to verify"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Introduces the SDAAP textual dataset for spectral analysis/detection knowledge and a RAG question-answering framework that uses query entities for retrieval and aims to provide source traceability. Treat as preprint unless peer-reviewed publication is confirmed."
+      }
+    ],
+    "extraction": {
+      "research_question": "Tidak dilaporkan pada teks yang diberikan",
+      "domain_modality": "Spectroscopy – spectral analysis/detection knowledge (\"Introduces the SDAAP textual dataset for spectral analysis/detection knowledge\" – abstract/notes)",
+      "method": "A Retrieval‑Augmented Generation (RAG) question‑answering framework that uses query entities for retrieval and aims to provide source traceability (\"...a RAG question‑answering framework that uses query entities for retrieval and aims to provide source traceability\" – abstract/notes)",
+      "rag_components": "Retrieval component based on query entities; generative component (large language model) to produce answers; mechanism for source traceability (implied by description) (\"...uses query entities for retrieval and aims to provide source traceability\" – abstract/notes)",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "The work introduces a spectral‑knowledge dataset (SDAAP) and a RAG framework for interrogating that knowledge, directly aligning with Spektra’s focus on retrieval‑augmented generative models for spectroscopy (\"Introduces the SDAAP textual dataset for spectral analysis/detection knowledge and a RAG question‑answering framework...\" – abstract/notes)",
+      "gap_evidence": {
+        "(a) explicit": "The excerpt does not mention any experimental evaluation, performance metrics, or identified limitations.",
+        "(b) cautious inference": "For coursework, one would infer that empirical validation (e.g., benchmark QA performance, comparison to baseline models) and discussion of dataset biases or retrieval errors are needed to assess the framework’s practical utility."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Instrument reference from user's book",
+      "title": "Visible diffuse reflectance smartphone spectrometer with high spectral accuracy",
+      "authors": "Md. Sadik Al Rayhan; Arnab Talukder; Saptami Rani; Khaled Bin Easin; Md. Arafat Hossain; Protik Chandra Biswas",
+      "year": "2025",
+      "venue": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 326, 125240",
+      "doi": "10.1016/j.saa.2024.125240",
+      "url": "https://doi.org/10.1016/j.saa.2024.125240",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Visible diffuse-reflectance smartphone spectrometer study; discusses wavelength calibration and detector response correction across 400–700 nm. Reference from user's book bibliography. Instrumentation context only; not a RAG study."
+      }
+    ],
+    "extraction": {
+      "research_question": "Tidak dilaporkan pada teks yang diberikan",
+      "domain_modality": "Visible diffuse‑reflectance spectroscopy using a smartphone‑based spectrometer (400–700 nm) – “Visible diffuse‑reflectance smartphone spectrometer study; discusses wavelength calibration and detector response correction across 400–700 nm.” (abstract/notes)",
+      "method": "Wavelength calibration and detector‑response correction for a smartphone spectrometer covering 400–700 nm (as described in the abstract).",
+      "rag_components": "Tidak dilaporkan pada teks yang diberikan",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Potensial relevan karena membahas spektrometer smartphone untuk reflektansi difus visible, yang sejalan dengan fokus Spektra pada alat spektroskopi portabel.",
+      "gap_evidence": {
+        "(a) explicit": "Artikel hanya menyebutkan bahwa ia ‘membahas kalibrasi panjang gelombang dan koreksi respons detektor pada rentang 400–700 nm’ dan menegaskan bahwa ini ‘bukan studi RAG’ (abstract/notes).",
+        "(b) cautious inference": "Tidak ada pernyataan tentang pertanyaan riset, metrik evaluasi, atau keterbatasan, menunjukkan kurangnya penilaian kinerja terukur yang dapat menjadi celah untuk analisis lebih lanjut dalam tugas kuliah."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Instrument reference from user's book",
+      "title": "Portable low-cost open-source wireless spectrophotometer for fast and reliable measurements",
+      "authors": "Katrina Laganovska; Aleksejs Zolotarjovs; Mercedes Vázquez; Kirsty Mc Donnell; Jānis Liepiņš",
+      "year": "2020",
+      "venue": "HardwareX, 7, e00108",
+      "doi": "10.1016/j.ohx.2020.e00108",
+      "url": "https://doi.org/10.1016/j.ohx.2020.e00108",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Describes an open-source portable low-cost wireless miniature spectrophotometer and its performance. Reference from user's book bibliography. Instrumentation context only; not a RAG study."
+      }
+    ],
+    "extraction": {
+      "research_question": "Tidak dilaporkan pada teks yang diberikan",
+      "domain_modality": "Portable low‑cost wireless miniature spectrophotometer (spectrophotometry) – disebutkan dalam abstrak sebagai \"open‑source portable low‑cost wireless miniature spectrophotometer\" (abstract/notes)",
+      "method": "Tidak dilaporkan pada teks yang diberikan",
+      "rag_components": "Tidak dilaporkan pada teks yang diberikan; artikel dinyatakan hanya konteks instrumentasi, bukan studi RAG (abstract/notes)",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Tidak dilaporkan pada teks yang diberikan; artikel tidak membahas RAG atau integrasi dengan sistem seperti Spektra (abstract/notes)",
+      "gap_evidence": {
+        "explicit": "Artikel menyatakan \"Instrumentation context only; not a RAG study\" (abstract/notes).",
+        "inference": "Karena tidak ada pembahasan tentang komponen RAG atau integrasi data spektrofotometer ke dalam pipeline RAG, terdapat celah potensial untuk mengembangkan metode yang menggabungkan perangkat spektrofotometer murah ini dengan sistem RAG dalam konteks coursework."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Application reference from user's book",
+      "title": "On-site colorimetric food spoilage monitoring with smartphone embedded machine learning",
+      "authors": "Vakkas Doğan; Melodi Evliya; Leyla Nesrin Kahyaoğlu; Volkan Kılıç",
+      "year": "2024",
+      "venue": "Talanta, 266, 125021",
+      "doi": "10.1016/j.talanta.2023.125021",
+      "url": "https://doi.org/10.1016/j.talanta.2023.125021",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Food-spoilage monitoring using an anthocyanin-rich red-cabbage-extract colorimetric system and machine learning embedded in a smartphone application. Reference from user's book bibliography. Food application and ML context; not RAG and not full spectral interpretation."
+      }
+    ],
+    "extraction": {
+      "research_question": "Apakah sistem colorimetric berbasis ekstrak merah kubis (anthocyanin) yang dipadukan dengan pembelajaran mesin pada aplikasi smartphone dapat memantau kerusakan makanan secara on‑site? (didasarkan pada judul dan abstrak: “Food‑spoilage monitoring using an anthocyanin‑rich red‑cabbage‑extract colorimetric system and machine learning embedded in a smartphone application.” – SOURCE: abstract/notes)",
+      "domain_modality": "Food safety; colorimetric sensing (anthocyanin‑rich red‑cabbage extract) dengan akuisisi gambar melalui smartphone.",
+      "method": "Sistem colorimetric berbasis ekstrak merah kubis dipadukan dengan model pembelajaran mesin yang di‑embed dalam aplikasi smartphone untuk mengklasifikasikan atau memprediksi tingkat kebusukan makanan. (dikutip dari abstrak) – SOURCE: abstract/notes",
+      "rag_components": "Tidak dilaporkan pada teks yang diberikan.",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan.",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan.",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan.",
+      "relevance_to_spektra": "Tidak dilaporkan pada teks yang diberikan; artikel tidak menyebutkan analisis spektral atau integrasi dengan platform Spektra. (catatan: “not RAG and not full spectral interpretation.”) – SOURCE: abstract/notes",
+      "gap_evidence": {
+        "(a) apa yang artikel nyatakan secara eksplisit": "Artikel tidak membahas komponen RAG, analisis spektral, atau evaluasi kuantitatif; hanya menyebutkan penggunaan sistem colorimetric dan ML pada smartphone. – SOURCE: abstract/notes",
+        "(b) inferensi hati‑hati untuk coursework": "Karena tidak ada data spektral atau komparasi dengan metode spektral, terdapat kesenjangan dalam menghubungkan pendekatan ini dengan kerangka kerja Spektra yang berfokus pada analisis spektral. Ini menyarankan perlunya studi lanjutan yang menilai performa sistem colorimetric dibandingkan atau digabungkan dengan teknik spektral."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Application reference from user's book",
+      "title": "Green curcumin extract from Curcuma longa L. for downscaling boron assay: optimization and application with a portable spectrometer",
+      "authors": "K. Kesonkan; P. Joradon; M. Vongboot",
+      "year": "2026",
+      "venue": "Microchemical Journal, 220, 116266",
+      "doi": "10.1016/j.microc.2025.116266",
+      "url": "https://doi.org/10.1016/j.microc.2025.116266",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Study of green curcumin extract for a downscaled boron assay with a portable spectrometer. Reference from user's book bibliography; close to natural-indicator/boron assay context, but not RAG. Check full text for exact scope."
+      }
+    ],
+    "extraction": {
+      "research_question": "Apakah ekstrak curcumin hijau dapat digunakan untuk mengembangkan assay boron yang diperkecil (downscaled) dan dapat dioperasikan dengan spektrometer portabel? (didasarkan pada kutipan: \"Study of green curcumin extract for a downscaled boron assay with a portable spectrometer.\") [SOURCE LOCATION: abstract/notes (no page-level full-text evidence) | CHUNK 0]",
+      "domain_modality": "Analytical chemistry – deteksi boron menggunakan indikator alami (ekstrak curcumin hijau) dengan spektrometer portabel. (didasarkan pada kutipan yang sama) [SOURCE LOCATION: abstract/notes (no page-level full-text evidence) | CHUNK 0]",
+      "method": "Tidak dilaporkan pada teks yang diberikan.",
+      "rag_components": "Tidak dilaporkan pada teks yang diberikan; kutipan menyatakan bahwa artikel tidak terkait dengan RAG. [SOURCE LOCATION: abstract/notes (no page-level full-text evidence) | CHUNK 0]",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan.",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan.",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan.",
+      "relevance_to_spektra": "Tidak dilaporkan pada teks yang diberikan.",
+      "gap_evidence": {
+        "(a) apa yang artikel nyatakan secara eksplisit": "Artikel hanya disebutkan sebagai studi tentang ekstrak curcumin hijau untuk assay boron yang diperkecil dengan spektrometer portabel; tidak ada informasi tentang pertanyaan riset terperinci, metodologi, hasil, evaluasi, atau keterbatasan. [SOURCE LOCATION: abstract/notes (no page-level full-text evidence) | CHUNK 0]",
+        "(b) inferensi hati-hati untuk tugas ini": "Karena detail metodologi, hasil, dan evaluasi tidak tersedia dalam kutipan, tidak dapat dipastikan bagaimana kinerja ekstrak curcumin sebagai indikator boron atau seberapa cocoknya dengan platform SPEKTRA. Penelitian ini berpotensi mengisi kesenjangan dalam penggunaan indikator alami untuk deteksi boron portable, namun bukti konkret belum tersedia dalam teks yang diberikan."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Cross-domain RAG comparator",
+      "title": "An advanced retrieval-augmented generation system for manufacturing quality control",
+      "authors": "José Antonio Heredia Álvaro; Javier González Barreda",
+      "year": "2025",
+      "venue": "Advanced Engineering Informatics, 64, 103007",
+      "doi": "10.1016/j.aei.2024.103007",
+      "url": "https://doi.org/10.1016/j.aei.2024.103007",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "RAG for troubleshooting and defect-cause analysis in ceramic-tile manufacturing using specialized bibliographic sources, preprocessing, and postprocessing. Cross-domain comparator only; not spectroscopy or low-cost instrumentation."
+      }
+    ],
+    "extraction": {
+      "research_question": "How can retrieval‑augmented generation be applied for troubleshooting and defect‑cause analysis in ceramic‑tile manufacturing? (\"RAG for troubleshooting and defect-cause analysis in ceramic-tile manufacturing\" – [abstract/notes | CHUNK 0])",
+      "domain_modality": "Manufacturing quality control – ceramic‑tile production (no spectroscopy) (\"Cross-domain comparator only; not spectroscopy or low-cost instrumentation\" – [abstract/notes | CHUNK 0])",
+      "method": "An advanced RAG system that leverages specialized bibliographic sources together with preprocessing and post‑processing steps (\"using specialized bibliographic sources, preprocessing, and postprocessing\" – [abstract/notes | CHUNK 0])",
+      "rag_components": "• Retrieval from specialized bibliographic sources\n• Generation component (implicit in RAG)\n• Preprocessing of retrieved texts\n• Post‑processing of generated answers (as described in the abstract) (\"using specialized bibliographic sources, preprocessing, and postprocessing\" – [abstract/notes | CHUNK 0])",
+      "evaluation": "Tidak dilaporkan pada teks yang diberikan",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Tidak relevan secara langsung karena artikel tidak melibatkan spektroskopi atau instrumen berbiaya rendah; hanya sebagai pembanding lintas‑domain (\"Cross-domain comparator only; not spectroscopy or low-cost instrumentation\" – [abstract/notes | CHUNK 0])",
+      "gap_evidence": {
+        "explicit": "Artikel menyatakan bahwa sistem ini \"Cross-domain comparator only; not spectroscopy or low-cost instrumentation\" (\"Cross-domain comparator only; not spectroscopy or low-cost instrumentation\" – [abstract/notes | CHUNK 0]).",
+        "inference": "Tidak ada informasi tentang cara evaluasi performa, metrik kuantitatif, atau studi perbandingan dengan metode lain, sehingga terdapat kekosongan data evaluasi yang diperlukan untuk menilai efektivitas RAG dalam konteks manufaktur kualitas. (Inference based on absence of evaluation details in the provided excerpt.)"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Cross-domain RAG comparator",
+      "title": "Empowering LLMs by hybrid retrieval-augmented generation for domain-centric Q&A in smart manufacturing",
+      "authors": "Yuwei Wan; Zheyuan Chen; Ying Liu; Chong Chen; Michael Packianather",
+      "year": "2025",
+      "venue": "Advanced Engineering Informatics, 65, 103212",
+      "doi": "10.1016/j.aei.2025.103212",
+      "url": "https://doi.org/10.1016/j.aei.2025.103212",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "Hybrid knowledge-graph and vector RAG evaluated on design-for-additive-manufacturing QA; article reports exact match and context precision metrics. Cross-domain comparator; article reports 77.8% exact match and 76.5% context precision. Not spectroscopy."
+      }
+    ],
+    "extraction": {
+      "research_question": "Can a hybrid knowledge‑graph and vector retrieval‑augmented generation (RAG) approach improve domain‑centric question answering performance in design‑for‑additive‑manufacturing within smart manufacturing? (abstract/notes, CHUNK 0)",
+      "domain_modality": "Smart manufacturing domain, specifically design‑for‑additive‑manufacturing Q&A; text‑based modality (no spectroscopy). (abstract/notes, CHUNK 0)",
+      "method": "Hybrid knowledge‑graph and vector RAG system that combines structured graph retrieval with dense vector similarity search before LLM generation. (abstract/notes, CHUNK 0)",
+      "rag_components": "• Knowledge‑graph retrieval component\n• Vector (dense embedding) retrieval component\n• LLM generator that fuses retrieved evidence\n(abstract/notes, CHUNK 0)",
+      "evaluation": "Evaluated on a design‑for‑additive‑manufacturing QA set; reported 77.8 % exact match and 76.5 % context precision. (abstract/notes, CHUNK 0)",
+      "key_findings": "The hybrid RAG achieved 77.8 % exact match and 76.5 % context precision, demonstrating superior performance for domain‑centric Q&A in smart manufacturing. (abstract/notes, CHUNK 0)",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Tidak relevan; article explicitly states it is not about spectroscopy. (abstract/notes, CHUNK 0)",
+      "gap_evidence": {
+        "explicit": "The article does not discuss spectroscopy or multimodal retrieval beyond knowledge‑graph and vector text retrieval. (abstract/notes, CHUNK 0)",
+        "inferred": "For this coursework, a gap exists in applying hybrid RAG to spectroscopic data or cross‑modal (e.g., spectral‑text) QA, which Spektra focuses on."
+      }
+    }
+  },
+  {
+    "metadata": {
+      "category": "Cross-domain RAG comparator",
+      "title": "An Intelligent Question Answering System for Food Safety Regulation Based on Retrieval-Augmented Generation Framework",
+      "authors": "Dianhui Mao; Kehao Wang; Junhua Chen; Jingting Xu",
+      "year": "2025",
+      "venue": "Food Science, 46(22), 13–22",
+      "doi": "10.7506/spkx1002-6630-20250408-059",
+      "url": "https://doi.org/10.7506/spkx1002-6630-20250408-059",
+      "publication_status": "Peer-reviewed journal article"
+    },
+    "selected_evidence": [
+      {
+        "location": "abstract/notes (no page-level full-text evidence)",
+        "chunk": 0,
+        "text": "RAG question answering for food-safety regulations using a food-safety knowledge graph, LLM-guided retrieval, and Qwen-7B-Chat with LoRA; evaluated using BLEU-4, ROUGE-L and accuracy. Cross-domain food comparator only; not spectroscopy or instrument-assistant RAG."
+      }
+    ],
+    "extraction": {
+      "research_question": "Bagaimana membangun sistem tanya‑jawab cerdas untuk regulasi keamanan pangan dengan kerangka Retrieval‑Augmented Generation (RAG)? (\"RAG question answering for food‑safety regulations ...\") [abstract/notes]",
+      "domain_modality": "Regulasi keamanan pangan (teks); tidak melibatkan spektroskopi atau data instrumen. (\"Cross‑domain food comparator only; not spectroscopy or instrument‑assistant RAG.\") [abstract/notes]",
+      "method": "Menggabungkan knowledge graph keamanan pangan, retrieval yang dipandu LLM, dan model Qwen‑7B‑Chat yang di‑LoRA. (\"using a food‑safety knowledge graph, LLM‑guided retrieval, and Qwen‑7B‑Chat with LoRA\") [abstract/notes]",
+      "rag_components": {
+        "external_knowledge": "Food‑safety knowledge graph",
+        "retrieval": "LLM‑guided retrieval",
+        "generation": "Qwen‑7B‑Chat fine‑tuned with LoRA"
+      },
+      "evaluation": "BLEU‑4, ROUGE‑L, dan akurasi digunakan untuk menilai performa. (\"evaluated using BLEU‑4, ROUGE‑L and accuracy.\") [abstract/notes]",
+      "key_findings": "Tidak dilaporkan pada teks yang diberikan",
+      "limitations_reported": "Tidak dilaporkan pada teks yang diberikan",
+      "relevance_to_spektra": "Tidak relevan dengan spektra; artikel tidak membahas spektroskopi atau RAG berbasis instrumen. (\"not spectroscopy or instrument‑assistant RAG.\") [abstract/notes]",
+      "gap_evidence": {
+        "explicit": "Artikel menyatakan hanya membandingkan domain makanan dan tidak mencakup spektroskopi. (\"Cross‑domain food comparator only; not spectroscopy or instrument‑assistant RAG.\") [abstract/notes]",
+        "inferred": "Karena tidak ada evaluasi atau diskusi tentang data spektroskopi, terdapat kekosongan pengetahuan mengenai penerapan RAG pada spektra dalam konteks regulasi keamanan pangan."
+      }
+    }
+  }
+]
